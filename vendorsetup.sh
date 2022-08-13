@@ -1,4 +1,4 @@
-rm -rf vendor/xdroidui vendor/google/gms
+rm -rf vendor/xdroidui vendor/google/gms vendor/gms
 git clone https://gitlab.com/Project-Awaken/android_vendor_gms vendor/gms
 git clone https://github.com/XenStuff/xd_vendor_xdroidui vendor/xdroidui
 
