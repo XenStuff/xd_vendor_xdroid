@@ -1,5 +1,3 @@
-mv ~/roms/RiceDroid-twelve/out ~/roms/xdroid*/out*
-make clean -j$(nproc --all)
 rm -rf vendor/google vendor/gms && repo sync --force-sync > p
 rm p
 export AOSP_REVISION=$(grep "default revision" ".repo/manifests/default.xml" | awk -F '/' '{print $3}' | awk -F '"' '{print $1}')
